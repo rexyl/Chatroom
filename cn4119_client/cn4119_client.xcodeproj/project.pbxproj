@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDA178921BAE5148004D0B5D /* socket server.c in Sources */ = {isa = PBXBuildFile; fileRef = CDA178911BAE5148004D0B5D /* socket server.c */; };
-		CDA1789B1BAE536B004D0B5D /* socket_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDA178991BAE536B004D0B5D /* socket_server.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		CDA178B61BAE581E004D0B5D /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDA178B51BAE581E004D0B5D /* client.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CDA178851BAE511A004D0B5D /* CopyFiles */ = {
+		CDA178A31BAE57D8004D0B5D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,13 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CDA178871BAE511A004D0B5D /* cn4119 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cn4119; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDA178911BAE5148004D0B5D /* socket server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "socket server.c"; sourceTree = "<group>"; };
-		CDA178991BAE536B004D0B5D /* socket_server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = socket_server.cpp; sourceTree = "<group>"; usesTabs = 0; };
+		CDA178A51BAE57D8004D0B5D /* cn4119_client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cn4119_client; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA178B51BAE581E004D0B5D /* client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = client.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CDA178841BAE511A004D0B5D /* Frameworks */ = {
+		CDA178A21BAE57D8004D0B5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,96 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CDA1787E1BAE511A004D0B5D = {
+		CDA1789C1BAE57D8004D0B5D = {
 			isa = PBXGroup;
 			children = (
-				CDA178891BAE511A004D0B5D /* cn4119 */,
-				CDA178881BAE511A004D0B5D /* Products */,
+				CDA178A71BAE57D8004D0B5D /* cn4119_client */,
+				CDA178A61BAE57D8004D0B5D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CDA178881BAE511A004D0B5D /* Products */ = {
+		CDA178A61BAE57D8004D0B5D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDA178871BAE511A004D0B5D /* cn4119 */,
+				CDA178A51BAE57D8004D0B5D /* cn4119_client */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDA178891BAE511A004D0B5D /* cn4119 */ = {
+		CDA178A71BAE57D8004D0B5D /* cn4119_client */ = {
 			isa = PBXGroup;
 			children = (
-				CDA178911BAE5148004D0B5D /* socket server.c */,
-				CDA178991BAE536B004D0B5D /* socket_server.cpp */,
+				CDA178B51BAE581E004D0B5D /* client.cpp */,
 			);
-			path = cn4119;
+			path = cn4119_client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDA178861BAE511A004D0B5D /* cn4119 */ = {
+		CDA178A41BAE57D8004D0B5D /* cn4119_client */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDA1788E1BAE511A004D0B5D /* Build configuration list for PBXNativeTarget "cn4119" */;
+			buildConfigurationList = CDA178AC1BAE57D8004D0B5D /* Build configuration list for PBXNativeTarget "cn4119_client" */;
 			buildPhases = (
-				CDA178831BAE511A004D0B5D /* Sources */,
-				CDA178841BAE511A004D0B5D /* Frameworks */,
-				CDA178851BAE511A004D0B5D /* CopyFiles */,
+				CDA178A11BAE57D8004D0B5D /* Sources */,
+				CDA178A21BAE57D8004D0B5D /* Frameworks */,
+				CDA178A31BAE57D8004D0B5D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = cn4119;
-			productName = cn4119;
-			productReference = CDA178871BAE511A004D0B5D /* cn4119 */;
+			name = cn4119_client;
+			productName = cn4119_client;
+			productReference = CDA178A51BAE57D8004D0B5D /* cn4119_client */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CDA1787F1BAE511A004D0B5D /* Project object */ = {
+		CDA1789D1BAE57D8004D0B5D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Lu Yang";
 				TargetAttributes = {
-					CDA178861BAE511A004D0B5D = {
+					CDA178A41BAE57D8004D0B5D = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
-			buildConfigurationList = CDA178821BAE511A004D0B5D /* Build configuration list for PBXProject "cn4119" */;
+			buildConfigurationList = CDA178A01BAE57D8004D0B5D /* Build configuration list for PBXProject "cn4119_client" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CDA1787E1BAE511A004D0B5D;
-			productRefGroup = CDA178881BAE511A004D0B5D /* Products */;
+			mainGroup = CDA1789C1BAE57D8004D0B5D;
+			productRefGroup = CDA178A61BAE57D8004D0B5D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDA178861BAE511A004D0B5D /* cn4119 */,
+				CDA178A41BAE57D8004D0B5D /* cn4119_client */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CDA178831BAE511A004D0B5D /* Sources */ = {
+		CDA178A11BAE57D8004D0B5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA178921BAE5148004D0B5D /* socket server.c in Sources */,
-				CDA1789B1BAE536B004D0B5D /* socket_server.cpp in Sources */,
+				CDA178B61BAE581E004D0B5D /* client.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CDA1788C1BAE511A004D0B5D /* Debug */ = {
+		CDA178AA1BAE57D8004D0B5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -171,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		CDA1788D1BAE511A004D0B5D /* Release */ = {
+		CDA178AB1BAE57D8004D0B5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,14 +202,14 @@
 			};
 			name = Release;
 		};
-		CDA1788F1BAE511A004D0B5D /* Debug */ = {
+		CDA178AD1BAE57D8004D0B5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		CDA178901BAE511A004D0B5D /* Release */ = {
+		CDA178AE1BAE57D8004D0B5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -223,24 +219,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDA178821BAE511A004D0B5D /* Build configuration list for PBXProject "cn4119" */ = {
+		CDA178A01BAE57D8004D0B5D /* Build configuration list for PBXProject "cn4119_client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDA1788C1BAE511A004D0B5D /* Debug */,
-				CDA1788D1BAE511A004D0B5D /* Release */,
+				CDA178AA1BAE57D8004D0B5D /* Debug */,
+				CDA178AB1BAE57D8004D0B5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDA1788E1BAE511A004D0B5D /* Build configuration list for PBXNativeTarget "cn4119" */ = {
+		CDA178AC1BAE57D8004D0B5D /* Build configuration list for PBXNativeTarget "cn4119_client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDA1788F1BAE511A004D0B5D /* Debug */,
-				CDA178901BAE511A004D0B5D /* Release */,
+				CDA178AD1BAE57D8004D0B5D /* Debug */,
+				CDA178AE1BAE57D8004D0B5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CDA1787F1BAE511A004D0B5D /* Project object */;
+	rootObject = CDA1789D1BAE57D8004D0B5D /* Project object */;
 }
